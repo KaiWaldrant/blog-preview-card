@@ -51,6 +51,7 @@ video {
   --gray-950: hsl(0, 0%, 7%);
 
   font-family: Figtree, system-ui, sans-serif;
+  
 }
 
 body {
@@ -109,6 +110,15 @@ body {
   font-weight: 500;
 }
 
+.card__content a {
+  text-decoration: none;
+  color: var(--gray-950);
+}
+
+.card__content a:hover {
+  color: var(--yellow);
+}
+
 .card__content h2 {
   font-size: 1.25rem;
   font-weight: 900;
@@ -141,3 +151,9 @@ body {
   bottom: 0;
 }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+@media (min-width: 768px) {
+  .card {
+    max-width: 384px;
+  }
+}
