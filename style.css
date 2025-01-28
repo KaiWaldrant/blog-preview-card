@@ -78,12 +78,23 @@ body {
 .card__header {
   max-height: 200px;
   overflow: clip;
-  text-align: center;
+  border-radius: 10px;
 }
 
-.header__image {
-  max-height: 200px;
-  overflow: clip;
+.card__content {
+  display: flex;
+  flex-direction: column;
+  gap: .75rem;
+}
+
+.tag {
+  display: inline-flex;
+  font-size: .75rem;
+  font-weight: 900;
+  background-color: var(--yellow);
+  padding: .25rem .75rem;
+  max-width: 100%;
+  border-radius: 4px;
 }
 
 .attribution { 
