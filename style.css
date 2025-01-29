@@ -1,4 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+@font-face {
+  font-family: 'Figtree';
+  font-weight: 500 800;
+  src: url("./assets/fonts/Figtree-VariableFont_wght.ttf") format("truetype-variations");
+}
 
 
 /* RESET */
@@ -50,7 +54,7 @@ video {
   --gray-500: hsl(0, 0%, 42%);
   --gray-950: hsl(0, 0%, 7%);
 
-  font-family: Figtree, system-ui, sans-serif;
+  font-family: 'Figtree';
   
 }
 
@@ -101,7 +105,7 @@ body {
 .tag {
   display: inline-flex;
   font-size: .75rem;
-  font-weight: 900;
+  font-weight: 800;
   background-color: var(--yellow);
   padding: .25rem .75rem;
   max-width: 100%;
