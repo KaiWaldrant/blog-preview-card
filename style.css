@@ -39,7 +39,7 @@ picture,
 svg,
 video {
   display: block;
-  /* max-width: 100%; */
+  max-width: 100%;
 }
 
 /* STYLING */
@@ -82,12 +82,15 @@ body {
   display: relative;
   overflow: clip;
   border-radius: 10px;
-  /* object-fit: fill; */
+  height: 200px;
+
+  > img {
+    inline-size: 100%;
+    block-size: 100%;
+    object-fit: cover;
+  }
 }
 
-.card__header img {
-  height: 200px;
-}
 
 .card__content {
   display: flex;
