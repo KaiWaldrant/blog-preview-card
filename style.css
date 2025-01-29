@@ -66,9 +66,13 @@ body {
 }
 
 .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
-  align-content: center;
-  justify-items: center;
+  /* not yet supported for frontend mentor */
+  /* align-content: center;
+  justify-items: center; */
   min-height: 100dvh;
 }
 
